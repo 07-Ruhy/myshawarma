@@ -26,54 +26,21 @@ img {
 </head>
 <body>
 
-<div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-  <button class="dropdown-btn">Dropdown 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-  <a href="#contact">Search</a>
-</div>
-
-<div class="main">
- /* <h2>Sidebar Dropdown</h2>
-  <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
-  <p>This sidebar is of full height (100%) and always shown.</p>
-  <p>Some random text..</p>*/
-</div>
-
-<script>
-/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
-
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
-</script>
-
+    <div class="container">
+        
+        <!-- Landing Section Code starts here -->
+        <div class="landing-section">
+            <header>
+                <img src="./images/shaw.png">
+            </header>
             <section>
-                           <h4>Brighten your day with a<br>delicious shawarma</h4>
+            	
+              <h1>Brighten your<br>day with a<br>delicious shawarma</h1>
                 <button>MAKE AN ORDER 
-                   
-                    <a href="https://wa.me/9949386177" target="_blank"><img src="/Images/whatsapp 32px.png" alt=""></a>
+                    <a href="tel:9949386177"><img src="./images/phone-call 32px.png" alt=""></a>
+                    <a href="https://wa.me/9949386177" target="_blank"><img src="./images/whatsapp 32px.png" alt=""></a>
                 </button>
-                <button>Order now on
+                 <button>Order now on
                     <a href="https://www.zomato.com/hyderabad/best-shawarmas-meerpet/order" target="_blank"><img src="/Images/zom.png" alt=""></a>
                 </button>
             </section>
@@ -144,7 +111,7 @@ for (i = 0; i < dropdown.length; i++) {
                     <h4><a style="text-decoration: none; color: white" href="https://goo.gl/maps/4oApcvVbmuXaFTpf9">Wandoor</a></h4>
                 </div>
                 <div class="center-pic">
-                    <img src="/Images/121584927_189647089268217_8539372746537639477_n.jpg" alt="" srcset="">
+                    <img src="./images/sidepost-shawarma-shack.jpg" alt="" srcset="">
                 </div>
                 <div class="right-outlet">
                     <h4><a style="text-decoration: none; color: white" href="https://g.page/shawarmashack_nilambur?share">Nilambur</a></h4>
